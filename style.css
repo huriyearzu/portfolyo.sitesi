@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.menu-container {
+justify-content: center;
+    padding: 0px;
+    font-size: larger;
+    line-height: 100px;
+    align-items: center;
+
+    
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px ;
+    line-height: 60px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    color: rgb(82, 8, 146);
+}
+
+.back{
+    position: absolute;
+z-index: -99;
+
+
+
+}
+
+.hh {
+    display: flex;
+    overflow: hidden;
+}
+
+.hh img {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.header-container{
+margin: 0;
+padding: 0;
+
+
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.pad {
+    padding-right: 2%;
+
+}
+body {
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614648171_20-p-estetichnii-fon-dlya-fotoshopa-22.jpg');
+    background-size: cover; /* Tüm ekranı kaplamak için */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    width: auto;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ana-conteiner {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.proje {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: row; /* Varsayılan olarak yatay yönde sıralama */
+}
+
+.proje img {
+    width: calc(16.6667% - 10px);
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+
+    .proje {
+        flex-direction: column; /* Ekran daraldıkça resimleri dikey yönde sırala */
+    }
+
+    .proje img {
+        width: calc(50% -10px);
+}
+}
