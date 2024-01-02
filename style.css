@@ -69,7 +69,7 @@ padding: 0;
 
 }
 body {
-    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614648171_20-p-estetichnii-fon-dlya-fotoshopa-22.jpg');
+    background-color: red;
     background-size: cover; /* Tüm ekranı kaplamak için */
     background-position: center;
     background-repeat: no-repeat;
